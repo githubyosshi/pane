@@ -126,6 +126,8 @@ header img {
   width: 250px;
   background: #fff;
   position: relative;
+  box-sizing: border-box;
+  padding: 60px 40px 25px;
 }
 
 /* 丸くして中央揃え */
@@ -136,4 +138,16 @@ header img {
   left: 0;
   right: 0;
   margin: 0 auto;
+  top: -55px;
+}
+
+/* 中央揃え */
+.voice h1 {
+  text-align: center;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.voices .section-title {
+  margin-bottom: 95px;
 }
