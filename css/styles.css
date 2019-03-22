@@ -20,6 +20,8 @@ body {
   text-align: center;
   font-weight: normal;
   font-size: 24px;
+  margin-bottom: 60px;
+  margin-top: 0;
 }
 
 .section-title::after {
@@ -92,7 +94,18 @@ header img {
   padding-left: 40px;
 }
 
+/* 偶数 */
 .feature:nth-of-type(even) .desc {
   float: left;
   padding-right: 40px;
+}
+
+/* 最後の要素を除く */
+.feature:not(:last-child) {
+  margin-bottom: 60px;
+}
+
+/* 要素の回り込み防止 */
+.feature {
+  overflow: hidden;
 }
